@@ -1,1 +1,120 @@
-Hello World 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Badler - Closing time</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400&family=Prata&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./Fav_Black.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            background-color: white;
+            font-family: 'Mulish', sans-serif;
+            font-size: 16px;
+            line-height: 25.6px;
+            padding-top: 16.5vh;
+            box-sizing: border-box;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 825px;
+            width: 100%;
+            align-items: flex-start;
+        }
+        .left {
+            width: 205px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 17px 0 0;
+            box-sizing: border-box;
+        }
+        .right {
+            width: 555px;
+        }
+        .right p {
+            margin-bottom: 27px;
+        }
+        .title {
+            font-family: 'Prata', serif;
+            font-size: 28px;
+            line-height: 35.23px;
+            margin-bottom: 32px;
+            font-weight: 400;
+        }
+        a {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+        @media (max-width: 767px) {
+            body {
+                padding-top: 26px;
+            }
+            .left {
+                padding: 0;
+            }
+            .left img {
+                width: 155px;
+            }
+            .title {
+                font-size: 22px;
+                line-height: 29.81px;
+            }
+            .container {
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+            }
+            .left,
+            .right {
+                width: 100%;
+            }
+            .right {
+                padding: 14px 15px 0 15px;
+                box-sizing: border-box;
+            }
+        }
+        @media (min-width: 768px) {
+            .title {
+                letter-spacing: -.032em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./logo.svg" alt="Badler Jewelers">
+        </div>
+        <div class="right">
+            <h1 class="title">
+                After 45 years in the jewelry business and certainly with mixed feelings, we have decided to retire at the end of March.
+            </h1>
+            <p>
+                Our heartfelt thanks to all of you who have supported us throughout these years. We have been privileged to work with so many wonderful clients. It has been truly gratifying to work with generations of families, and we feel deeply honored that you have given us your trust and loyalty.
+            </p>
+            <p>
+                It is our intention to continue assisting with referrals to our vendors for repairs and purchases once our website is closed. You can email us at <a href="mailto:info@badler.com">info@badler.com</a> or call/text us at <a href="tel:2125759632">212-575-9632.</a>
+            </p>
+            <p>
+                Before we say goodbye, we are holding one last sale of our remaining merchandise. Please see below for details.
+            </p>
+            <p>
+                We wish all of you good health, happiness, peace and prosperity in the years ahead.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
